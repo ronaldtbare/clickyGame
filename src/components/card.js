@@ -4,7 +4,7 @@ import React from 'react';
 function Card() {
     return (
         <div className="card" style={{width: "18rem"}}>
-            <img src="./src/images/portrait5.jpg" class="card-img-top" alt="portrait"></img>
+            <img src={`${process.env.PUBLIC_URL}/img/portrait5.jpg`} class="card-img-top" alt="portrait"></img>
         </div>
     );
 }
